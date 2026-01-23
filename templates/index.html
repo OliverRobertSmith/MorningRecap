@@ -1,0 +1,21 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/basicStyle.css') }}">
+    <title>Stock Recap</title>
+  </head>
+  <body>
+    <div id="top" role="document">
+      <header>
+        <h1>The Stock Recap</h1>
+      </header>
+
+    <div class="button-div">
+      <a href="{{ url_for('worldbenchmarks') }}"><button class="navigation-button">Benchmarks</button></a>
+    </div>
+    <div class="button-div">
+      <a href="{{ url_for('individualStocks') }}"><button class="navigation-button">Individuals</button></a>
+    </div>
+
+  </body>
+</html>

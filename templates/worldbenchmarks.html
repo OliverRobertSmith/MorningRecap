@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <title>World Benchmark</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/basicStyle.css') }}">
+  </head>
+
+  <header>
+    <h1>Country Benchmark Indexes</h1>
+  </header>
+
+  <body>
+
+    <div class="button-div">
+      <a href="{{ url_for('index') }}"><button class="navigation-button">Home</button></a>
+    </div>
+
+    {% for graph, news in pairs %}
+        <div class="container">
+            <div class="left-side">
+
+                {{ graph|safe }}
+
+            </div>
+                
+            <div class="right-side">
+                <div class="index-article">
+                    {% for item in news %}
+
+                        <p class="headline">
+                            <h2><a href="{{ item.link }}">{{ item.title }}</a></h2>
+                            <p>{{ item.published }}</p>
+                        </p>
+
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+
+    {% endfor %}
+
+  </body>
+</html>

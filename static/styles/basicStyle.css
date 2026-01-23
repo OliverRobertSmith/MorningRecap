@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 224, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	width:100%;
+	background: #098882;
+	height: 20%;
+	background-position: 100%;
+	min-height: 100px;
+    min-width: 300px;
+}
+
+.content-wrapper {
+    padding: 10px 30px;
+}
+
+p {
+    text-align: left;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    padding: 25px; 
+    text-align: center;
+}
+
+h2 {
+    color: #6baef7;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graph-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    margin: 50px 50px;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    text-align: left;
+}
+
+.article {
+    text-align: left;
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+.index-article {
+    text-align: left;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.headline {
+    text-align: left;
+}
+
+
+.button-div {
+    text-align: center;
+}
+
+.navigation-button {
+    background-color: #098882;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 25px; 
+    margin-top: 50px;
+}
+
+.navigation-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.navigation-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+    }
+
+.buy-button {
+    background-color: #2dbe09;
+    color: white;
+    padding: 12px 24px;
+    font-size: 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 25px; 
+    margin-top: 50px;
+}
+
+.buy-button:hover {
+    background-color: #188d1e;
+    transform: scale(1.05);
+}
+
+.buy-button:active {
+    background-color: #27702a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+}
+
+.sell-button {
+    background-color: #ec3131;
+    color: white;
+    padding: 12px 24px;
+    font-size: 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 25px; 
+    margin-top: 50px;
+}
+
+.sell-button:hover {
+    background-color: #b91818;
+    transform: scale(1.05);
+}
+
+.sell-button:active {
+    background-color: #991212;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+}
+
