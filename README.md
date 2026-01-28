@@ -12,7 +12,8 @@ Stock recap with news and index information for countries. Built using matplotli
 
 ## BENCHMARKS:
 
-<img width="1887" height="800" alt="image" src="https://github.com/user-attachments/assets/cd8993f4-867d-44a6-9093-8df559d96842" />
+<img width="1911" height="910" alt="image" src="https://github.com/user-attachments/assets/d0ca25a3-777d-4822-a4cb-16805c176e68" />
+
 
 
 ## INDIVIDUALS:
